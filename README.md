@@ -1,8 +1,12 @@
-# KSwimTracker
+# K Swim Tracker
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/k_swim_tracker`. To experiment with that code, run `bin/console` for an interactive prompt.
+> K Swim Tracker is a command line tool for recording my personal while swimming
 
-TODO: Delete this and the text above, and describe your gem
+Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/k_swim_tracker`.
+
+When using the source code for this gem, start by running `bin/setup` to install locally or `bundle install`
+
+To experiment with that code, run `bin/console` for an interactive prompt or run `exe/k_swim_tracker` to see a list of commands.
 
 ## Installation
 
@@ -14,11 +18,29 @@ gem 'k_swim_tracker'
 
 And then execute:
 
-    $ bundle
+```bash
+bundle install
+```
 
 Or install it yourself as:
 
-    $ gem install k_swim_tracker
+```bash
+gem install k_swim_tracker
+```
+
+## Stories
+
+
+As a Person getting fit, I should be able to measuire my progress, so that I see my improvment
+
+- Create new commandline tool
+- Setup deployment pipeline
+- Setup guard and unit tests
+
+
+As a XX, I should be able to , so that I
+
+
 
 ## Usage
 
@@ -41,3 +63,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the KSwimTracker project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/k_swim_tracker/blob/master/CODE_OF_CONDUCT.md).
+
+## Copyright
+
+Copyright (c) David. See [MIT License](LICENSE.txt) for further details.
