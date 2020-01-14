@@ -1,5 +1,14 @@
 # K Swim Tracker
 
+## TODO
+
+- Add swim times
+- Use prompt
+- List swim times
+- Use table
+- Seperate regular commands from Gui Subcommands
+- Add extended options support
+
 > K Swim Tracker is a command line tool for recording my personal while swimming
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/k_swim_tracker`.
@@ -30,17 +39,13 @@ gem install k_swim_tracker
 
 ## Stories
 
-
 As a Person getting fit, I should be able to measuire my progress, so that I see my improvment
 
 - Create new commandline tool
 - Setup deployment pipeline
 - Setup guard and unit tests
 
-
 As a XX, I should be able to , so that I
-
-
 
 ## Usage
 

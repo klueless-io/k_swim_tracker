@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require_relative 'app'
 require 'forwardable'
 
 module KSwimTracker
@@ -8,6 +9,11 @@ module KSwimTracker
     extend Forwardable
 
     def_delegators :command, :run
+
+    # Commandlet Configuration
+    def config
+      KSwimTracker::App.config
+    end
 
     # Execute this command
     #
