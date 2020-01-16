@@ -21,9 +21,9 @@ module KSwimTracker
         data = config.read
         keys = data.keys.sort.reverse
 
-        new_data = keys.map { |k| [data[k]['date'], data[k]['laps'], data[k]['notes']] }
+        new_data = keys.map { |k| [data[k]['date'], data[k]['laps'], data[k]['time'], data[k]['notes']] }
 
-        table = TTY::Table.new %w[Date Laps Notes], new_data
+        table = TTY::Table.new %w[Date Laps Minutes Notes], new_data
         puts table.render(:unicode)
       end
     end
