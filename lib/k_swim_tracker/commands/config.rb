@@ -20,9 +20,7 @@ module KSwimTracker
       # and writing to output stream
       #
       # sample: output.puts 'OK'
-      def execute(input: $stdin, output: $stdout)
-      end
-
+      def execute(input: $stdin, output: $stdout); end
     end
   end
 end

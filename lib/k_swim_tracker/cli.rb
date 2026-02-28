@@ -14,7 +14,7 @@ module KSwimTracker
     desc 'version', 'k_swim_tracker version'
     def version
       require_relative 'version'
-      puts 'v' + KSwimTracker::VERSION
+      puts "v#{KSwimTracker::VERSION}"
     end
     map %w[--version -v] => :version
 
@@ -33,7 +33,7 @@ module KSwimTracker
         KSwimTracker::Commands::Config.new(key, value, options).execute
       end
     end
-    
+
     #
     # swim
     #

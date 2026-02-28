@@ -25,7 +25,7 @@ module KSwimTracker
         prompt = TTY::Prompt.new
 
         date = prompt.ask('Date', convert: :date, value: DateTime.now.strftime('%d/%m/%Y'))
-        laps = prompt.ask('Laps', convert: :int, default: last_row['laps'].to_i+2) do |q|
+        laps = prompt.ask('Laps', convert: :int, default: last_row['laps'].to_i + 2) do |q|
           q.in '1-1000'
           q.messages[:range?] = '%{value} out of expected range %{in}' # rubocop:disable all
         end

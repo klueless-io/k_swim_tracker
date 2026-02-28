@@ -3,7 +3,6 @@
 require 'k_swim_tracker/commands/config'
 
 RSpec.describe KSwimTracker::Commands::Config do
-
   let(:key) { nil }
   let(:value) { nil }
   let(:options) { {} }

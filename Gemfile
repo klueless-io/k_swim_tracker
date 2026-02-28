@@ -2,6 +2,7 @@
 
 source 'https://rubygems.org'
 
+gem 'pry'
 # Specify your gem's dependencies in poc_github_ap.gemspec
 gemspec
 

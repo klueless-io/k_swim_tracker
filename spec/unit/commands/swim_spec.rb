@@ -3,7 +3,6 @@
 require 'k_swim_tracker/commands/swim'
 
 RSpec.describe KSwimTracker::Commands::Swim do
-
   let(:subcommand) { nil }
   let(:options) { {} }
   subject { KSwimTracker::Commands::Swim.new(subcommand, options) }
